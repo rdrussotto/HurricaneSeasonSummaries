@@ -1,0 +1,3 @@
+AL031855,            UNNAMED,      1,
+date, time, special, type, lat, lon, wind, pressure, size351, size352, size353, size354, size501, size502, size503, size504, size641, size642, size643, size644,
+18550811, 1200,  , HU, 12.5N,  83.0W,  70, -999, -999, -999, -999, -999, -999, -999, -999, -999, -999, -999, -999, -999,
