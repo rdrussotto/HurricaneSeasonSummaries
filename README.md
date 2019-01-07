@@ -11,10 +11,6 @@ As of 7 January 2019 I have made such plots for all Atlantic hurricane seasons f
 the 2017 season was added on 1 May 2018 so I expect 2018 to be added at a 
 similar time this year. I have not yet made plots for Pacific hurricane seasons.
 
-Hurricanes whose names were retired by the World Meteorological Organization
-because they were particularly destructive are shown in bold. The maximum
-category reached is shown on the right y-axis. 
-
 In the root directory are iPython notebooks to split the data into 
 individual files for the storms, with a different directory for each
 season (these are in the "data" directory); to make the actual plots
@@ -33,7 +29,17 @@ You are welcome to make use of and adapt the plots and source code as long
 as you acknowledge where they came from. I would also welcome any collaborators 
 who want to expand this project.
 
-Here are a few examples and a color legend: 
+Below are a few examples and a color legend. 
+Hurricanes whose names were retired by the World Meteorological Organization
+because they were particularly destructive are shown in bold. 
+The maximum category reached on the 
+[Saffir-Simpson hurricane wind scale](https://en.wikipedia.org/wiki/Saffir-Simpson_scale)
+is shown on the right y-axis. 
+The colors are similar to those used in the tracking maps
+on [Weather Underground](https://www.wunderground.com/hurricane), except for Category 5. 
+I've tried other colormaps like sequential ones, which are arguably
+better for perception but it makes it more difficult to read off the categories.
+
 ![Alt text](plots/1992.png?raw=true "1992")
 ![Alt text](plots/2005.png?raw=true "2005")
 ![Alt text](plots/2017.png?raw=true "2017")
