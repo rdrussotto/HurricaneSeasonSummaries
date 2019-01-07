@@ -11,14 +11,12 @@ As of 7 January 2019 I have made such plots for all Atlantic hurricane seasons f
 the 2017 season was added on 1 May 2018 so I expect 2018 to be added at a 
 similar time this year. I have not yet made plots for Pacific hurricane seasons.
 
-In the root directory are iPython notebooks to split the data into 
+I used the NOAA HURDAT2 dataset available at 
+https://www.nhc.noaa.gov/data/. In the root directory are iPython notebooks to split the dataset into 
 individual files for the storms, with a different directory for each
 season (these are in the "data" directory); to make the actual plots
 and save as pdf and png files (stored in "plots");
 and to define retired storm names.
-
-Data is from the NOAA HURDAT2 archive available at 
-https://www.nhc.noaa.gov/data/.  
 
 I have used Python 3.6 with packages:  
 numpy version 1.11.3  
@@ -30,7 +28,8 @@ as you acknowledge where they came from. I would also welcome any collaborators
 who want to expand this project.
 
 Below are a few examples and a color legend. 
-Hurricanes whose names were retired by the World Meteorological Organization
+Hurricanes whose names were 
+[retired by the World Meteorological Organization](https://www.nhc.noaa.gov/aboutnames_history.shtml)
 because they were particularly destructive are shown in bold. 
 The maximum category reached on the 
 [Saffir-Simpson hurricane wind scale](https://en.wikipedia.org/wiki/Saffir-Simpson_scale)
